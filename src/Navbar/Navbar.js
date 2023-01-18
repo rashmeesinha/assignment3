@@ -41,7 +41,6 @@ function Navbar(props) {
           Log Out
         </div>
       )}
-      
 
       <div
         className="nav__item"

@@ -13,6 +13,7 @@ import Navbar from "./Navbar/Navbar"
 
 import Post from "./Post/Post";
 import Login from "./User/Login";
+import AddPost from './Post/addpost'
 
 const store = configureStore({
   reducer: {
@@ -34,6 +35,8 @@ function App() {
         <Route exact path="/signUp" element={<Login type={true}/>}></Route>
         
         <Route exact path="/posts" element={<Post/>}></Route>
+        <Route exact path="/addposts" element={<AddPost/>}></Route>
+
       </Routes>
       </Provider>
     </div>
