@@ -1,0 +1,23 @@
+.posts{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.post{
+    border: solid 0.5px;
+    width: 600px;
+}
+
+.addPosts {
+    margin-top: 100px;
+    padding: 50px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
